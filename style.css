@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+h3 {
+  text-align: center;
+}
+#adressBook > div {
+  display: flex;
+  margin: 0;
+}
+#adressBook > form {
+  display: flex;
+  flex-direction: row;
+}
+#sortDown:hover,
+#sortUp:hover,
+#adressBook > form > input:nth-child(5):hover,
+#adressBook > form > input:nth-child(6):hover {
+  cursor: pointer;
+  color: gray;
+}
+#adressBook > div > p {
+  margin: 0;
+  text-align: center;
+  width: 150px;
+  height: 25px;
+  border: solid 1px black;
+  border-right: none;
+}
+#adressBook > form > input {
+  margin: 0;
+  text-align: center;
+  width: 150px;
+  height: 25px;
+  border: solid 1px black;
+  border-right: none;
+}
+#adressBook > div:first-of-type > p {
+  background-color: rgb(196, 189, 189);
+}
+#adressBook > div > p:last-child {
+  border-right: solid 1px black;
+}
+
+#adressBook > div > p:nth-child(3),
+#adressBook > div > p:nth-child(4) {
+  width: 200px;
+}
+
+#adressBook > form > input:nth-child(3),
+#adressBook > form > input:nth-child(4) {
+  width: 200px;
+}
+#adressBook > form > input:nth-child(5),
+#adressBook > form > input:nth-child(6) {
+  width: 75px;
+}
+#adressBook > form > input:nth-child(5) {
+  text-align: end;
+}
+#adressBook > form > input:nth-child(6) {
+  text-align: start;
+  border-left: none;
+  border-right: solid 1px black;
+}
+
+#addClient {
+  display: flex;
+  flex-direction: column;
+}
+#addClient > form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#addClient > p {
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 25px;
+  left: 15px;
+}
+#addClient > p:nth-of-type(1) {
+  position: absolute;
+  margin-top: 12px;
+}
+#addClient > p:nth-of-type(2) {
+  position: absolute;
+  margin-top: 60px;
+}
+#addClient > p:nth-of-type(3) {
+  position: absolute;
+  margin-top: 100px;
+}
+#addClient > p:nth-of-type(4) {
+  position: absolute;
+  margin-top: 140px;
+}
+#addClient > form > input {
+  opacity: 0.6;
+  width: 250px;
+  height: 40px;
+  background-color: transparent;
+  border: solid 1px black;
+  font-size: medium;
+}
+#addClient > form > input:nth-of-type(1) {
+  height: 50px;
+  padding-top: 25px;
+}
+#addClient > form > input:nth-of-type(2) {
+  padding-left: 85px;
+  border-top: none;
+}
+#addClient > form > input:nth-of-type(3) {
+  padding-left: 55px;
+  border-top: none;
+}
+#addClient > form > input:nth-of-type(4) {
+  padding-left: 70px;
+  border-top: none;
+}
+#helpMail,
+#helpForm,
+#helpTel {
+  left: 300px;
+  position: absolute;
+  visibility: hidden;
+  color: rgb(112, 112, 112);
+  background-color: rgb(236, 145, 145);
+}
+
+#helpMail {
+  left: 300px;
+  top: 100px;
+}
+button {
+  width: 250px;
+  height: 30px;
+  background-color: rgb(196, 189, 189);
+  border: solid 1px black;
+  border-top: none;
+}
+#searching {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+#searching > p {
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  margin: 0;
+}
+#searching > input {
+  background-color: transparent;
+  font-size: medium;
+  padding-left: 89px;
+  width: 250px;
+  height: 40px;
+  border: solid 1px black;
+}

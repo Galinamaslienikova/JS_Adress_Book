@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h3>JS Test work: Address Book</h3>
+    <section id="adressBook">
+      <div>
+        <p>Phone</p>
+        <p>
+          Full Name <span id="sortUp"> &#8593;</span
+          ><span id="sortDown"> &#8595;</span>
+        </p>
+        <p>Email</p>
+        <p>Address</p>
+        <p>Operation</p>
+      </div>
+    </section>
+    <section id="addClient">
+      <p>Phone:</p>
+      <p>Full Name:</p>
+      <p>Email:</p>
+      <p>Address:</p>
+      <form name="client">
+        <span id="helpForm">Заполните все поля формы</span>
+        <input id="clientTel" type="text" />
+        <span id="helpTel"> Введите тедефон в формате 0xx-xxx-xx-xx </span>
+        <input id="clientName" type="text" />
+        <input id="clientMail" type="text" /><span id="helpMail">
+          Введите email в формате xxxxx@xxxx.xxx
+        </span>
+        <input id="clientAdress" type="text" />
+      </form>
+
+      <button id="save">Add new record (or Save)</button>
+    </section>
+    <section>
+      <form id="searching">
+        <p>Enter value:</p>
+        <input type="text" />
+      </form>
+      <button id="serchValue">Search</button>
+    </section>
+  </body>
+</html>
